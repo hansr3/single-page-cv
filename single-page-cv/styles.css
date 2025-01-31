@@ -9,5 +9,10 @@ body{
 }
 
 .header_line{
+    width: 80%;
     border-bottom: 2.5px solid black;
+}
+
+.role_skill{
+    color: #2d9c44;
 }
