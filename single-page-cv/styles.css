@@ -1,3 +1,8 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
 body{
     /* place-content: center; */
     place-self: center;
@@ -13,6 +18,6 @@ body{
     border-bottom: 2.5px solid black;
 }
 
-.role_skill{
+.header_1{
     color: #2d9c44;
 }
