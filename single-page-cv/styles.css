@@ -1,3 +1,7 @@
+@font-face {
+    font-family: Nunito-Medium ;
+    src: url('/single-page-cv/webfonts_Nunito-Medium/Nunito-Medium.ttf.woff');
+}
 *{
     padding: 0px;
     margin: 0px;
@@ -10,14 +14,33 @@ body{
     width: 21cm;
     padding: 2cm;
     border: 2.5px solid black;
+    font-family: Nunito-Medium;
+    font-size: 20px;
     
+}
+.name{
+    padding-top: 0.5cm;
+    font-size: 40px;
 }
 
 .header_line{
     width: 80%;
     border-bottom: 2.5px solid black;
+
 }
 
-.header_1{
+.header_1_green{
     color: #2d9c44;
+    font-size: 18px;
+    padding-top: 0.5cm;
+    padding-bottom: 0.2cm;
+}
+
+.org_name{
+    color: #1c74c4;
+    font-size: 20px;
+}
+
+ul{
+    padding-top: 0.2cm;
 }
